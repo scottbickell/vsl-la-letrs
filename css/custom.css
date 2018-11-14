@@ -1,4 +1,8 @@
 /* Add here all your CSS customizations */
+body {
+    font-size: 16px;
+    color: #333;
+}
 
 .thumb-info .thumb-info-title-blank {
 	-webkit-transition: all 0.3s;
@@ -62,17 +66,17 @@ a[x-apple-data-detectors] {
 	background-position: right;
 }
 
-.state-logo {
+/* .state-logo {
 	position: relative;
 	bottom: -85px;
-}
+} */
 
 .src-headline {
-	padding-top: 60px;
+	padding-top: 20px;
 }
 
 .src-headline h1 {
-	margin: 1.5em 0 .5em 0;
+	margin: .1em 0 .5em 0;
 	color: #0e70b4;
 	padding: 0;
 }
@@ -85,6 +89,10 @@ a[x-apple-data-detectors] {
 	color: #0e70b4;
 	padding: .5em 0;
 	margin: 0;
+}
+
+.state-logo {
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 580px) {
@@ -110,9 +118,6 @@ a[x-apple-data-detectors] {
 	}
 }
 
-.img-responsive {
-	margin: 0 auto;
-}
 
 .grant-information-tab {
 	padding: 10px;
@@ -174,8 +179,8 @@ p.quote {
 }
 
 p.sales-rep-name {
-	font-size: 1.7em;
-	margin: 0 0 .25em 0;
+	font-size: 1.3em;
+	margin: .5em 0 .25em 0;
 }
 
 .tight {
@@ -201,4 +206,7 @@ sup {
 
 .lighter {
     font-weight: 300;
+}
+p.margin-top {
+    margin-top: 20px;
 }
