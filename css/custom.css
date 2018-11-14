@@ -1,4 +1,6 @@
 /* Add here all your CSS customizations */
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i');
+
 body {
     font-size: 16px;
     color: #333;
@@ -186,6 +188,10 @@ a.buttons:hover {
     font-size: 1.3em;
 }
 
+h2.quote {
+    font-weight: 300;
+}
+
 p.quote {
 	margin-bottom: .5em;
 }
@@ -216,8 +222,11 @@ html.dark body .tabs .nav-tabs.nav-justified a:focus {
 	border-top-color: #ffd55e;
 }
 sup {
-	font-size: 12px;
-	line-height: 12px;
+ font-weight: normal;
+ margin-left: 3px;
+ font-size: 18px;
+ vertical-align: top;
+line-height: 18px;
 }
 
 .lighter {
