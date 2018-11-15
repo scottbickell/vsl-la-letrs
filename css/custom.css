@@ -89,7 +89,7 @@ a[x-apple-data-detectors] {
 
 .src-subhead h2 {
 	color: #0e70b4;
-	padding: .5em 0;
+	padding: .25em 0;
 	margin: 0;
 }
 
@@ -202,7 +202,7 @@ p.quote {
 
 p.sales-rep-name {
 	font-size: 1.3em;
-	margin: .5em 0 .25em 0;
+	margin: 0 0 .25em 0;
 }
 
 .tight {
