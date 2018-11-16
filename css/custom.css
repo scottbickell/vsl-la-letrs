@@ -207,6 +207,9 @@ p.sales-rep-name {
 	font-size: 1.3em;
 	margin: 0 0 .25em 0;
 }
+p.sales-rep-info {
+    line-height: 1.25em;
+}
 
 .tight {
 	line-height: 1.5em;
