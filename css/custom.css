@@ -104,6 +104,9 @@ a[x-apple-data-detectors] {
     html.sticky-header-active #header .header-body {
         position: relative;
     }
+    .lead {
+        font-size: 18px;
+    }
     
     .hide-hardbreak {
         display: none;
