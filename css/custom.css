@@ -88,7 +88,9 @@ a[x-apple-data-detectors] {
 }
 
 .src-subhead h2 {
-	color: #0e70b4;
+    color: #0e70b4;
+    font-size: 28px;
+    font-weight: bold;
 	padding: .25em 0;
 	margin: 0;
 }
@@ -222,16 +224,31 @@ html.dark body .tabs .nav-tabs.nav-justified a:focus {
 	border-top-color: #ffd55e;
 }
 sup {
- font-weight: normal;
- margin-left: 3px;
- font-size: 18px;
- vertical-align: top;
-line-height: 18px;
+    font-size: .7em;
+    margin-left: 3px;
+}
+
+.headline h1 {
+    margin: 0;
+    line-height: normal;
+}
+
+.headline h1.last {
+    margin-bottom: .5em;
 }
 
 .lighter {
     font-weight: 300;
 }
+
+h1.lighter {
+    font-weight: 300;
+    font-size: 32px;
+}
 p.margin-top {
     margin-top: 20px;
+}
+
+#header .header-body {
+    height: auto;
 }
