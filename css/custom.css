@@ -10,9 +10,7 @@ body {
     border-top: none;
 }
 
-.spacer {
-    height: 600px;
-}
+
 
 .thumb-info .thumb-info-title-blank {
     -webkit-transition: all 0.3s;
@@ -131,6 +129,12 @@ a[x-apple-data-detectors] {
 
 html.sticky-header-active #header .header-body {
     position: relative;
+}
+
+@media screen and (min-width: 580px) {
+    .spacer {
+        height: 900px;
+    }
 }
 
 @media screen and (max-width: 580px) {
