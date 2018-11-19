@@ -6,6 +6,14 @@ body {
     color: #333;
 }
 
+#header .header-body {
+    border-top: none;
+}
+
+.spacer {
+    height: 600px;
+}
+
 .thumb-info .thumb-info-title-blank {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -73,12 +81,22 @@ a[x-apple-data-detectors] {
 	bottom: -85px;
 } */
 
+.nav-wrapper {
+    float: right;
+    padding-top: 30px;
+}
+
+.subhead {
+    margin-top: 1.5em;
+}
+
+
 .src-headline {
-    padding-top: 20px;
+    padding: 80px 0 20px 0;
 }
 
 .src-headline h1 {
-    margin: .1em 0 .5em 0;
+
     color: #0e70b4;
     padding: 0;
 }
@@ -95,19 +113,37 @@ a[x-apple-data-detectors] {
     margin: 0;
 }
 
-.state-logo {
-    margin-top: 20px;
+.yellow-gradient-bg {
+    background-image: linear-gradient(to right, #ffd55e 0%, #fff5d8 100%);
+}
+
+.vsl-logo {
+    float: left;
+    height: 90px;
+    margin: 5px 15px 0 0;
+}
+
+.al-edu-logos {
+    float: left;
+    height: 100px;
+    width: 295px;
+}
+
+html.sticky-header-active #header .header-body {
+    position: relative;
 }
 
 @media screen and (max-width: 580px) {
 
-    html.sticky-header-active #header .header-body {
-        position: relative;
+    .vsl-logo,
+    .al-edu-logos {
+        float: none;
     }
+
     .lead {
         font-size: 18px;
     }
-    
+
     .hide-hardbreak {
         display: none;
     }
@@ -209,8 +245,16 @@ a.buttons:hover {
     border-bottom: 1px solid #e5e5e5;
 }
 
-h2.quote {
+.yellow-gradient-bg h2.quote {
     font-weight: 300;
+    font-size: 1.8em;
+    line-height: normal;
+    margin-top: 1em;
+}
+
+.yellow-gradient-bg h4 {
+    font-size: 1em;
+    line-height: normal;
 }
 
 p.quote {
