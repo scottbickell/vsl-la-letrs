@@ -81,7 +81,7 @@ a[x-apple-data-detectors] {
 
 .nav-wrapper {
     float: right;
-    padding-top: 30px;
+
 }
 
 .subhead {
@@ -116,32 +116,34 @@ a[x-apple-data-detectors] {
 }
 
 .vsl-logo {
-    float: left;
-    height: 90px;
-    margin: 5px 15px 0 0;
+    float: right;
+    height: 70px;
+    margin: 0 15px;
 }
 
 .al-edu-logos {
     float: left;
     height: 100px;
     width: 295px;
+    margin-top: 5px;
 }
 
 html.sticky-header-active #header .header-body {
     position: relative;
 }
 
-@media screen and (min-width: 580px) {
-    .spacer {
-        height: 900px;
-    }
-}
+
 
 @media screen and (max-width: 580px) {
 
     .vsl-logo,
     .al-edu-logos {
         float: none;
+    }
+
+    .vsl-logo-mobile {
+        float: right;
+        height: 50px;
     }
 
     .lead {
