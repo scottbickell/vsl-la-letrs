@@ -253,9 +253,9 @@ a.buttons:hover {
 
 .yellow-gradient-bg h2.quote {
     font-weight: 300;
-    font-size: 1.8em;
+    font-size: 1.5em;
     line-height: normal;
-    margin-top: 1em;
+    margin: 1em 2em;
 }
 
 .yellow-gradient-bg h4 {
