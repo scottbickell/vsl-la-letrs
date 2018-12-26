@@ -233,7 +233,7 @@ a.buttons:hover {
     margin: 0 0 .25em 0;
 }
 
-#resources h3 {
+#resources h3, #testimonials h3 {
     text-transform: none;
     padding-bottom: .5em;
     color: #0e70b4;
