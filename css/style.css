@@ -54,6 +54,10 @@ section.page-header h1.header-no-border-bottom {
         line-height: 30px;
         font-size: 23px;
     }
+
+    p.quote {
+        margin: 0;
+    }
 }
 
 a[x-apple-data-detectors] {
@@ -242,11 +246,15 @@ a.buttons:hover {
     border-bottom: 1px solid #ffd55e;
 }
 
+p.quote {
+    margin: 0 4em;
+}
+
 #resources ul {
     padding-left: 2em;
 }
 
-#resources h4 {
+#resources h4, #testimonials h4 {
     font-size: 1.3em;
     border-bottom: 1px solid #e5e5e5;
 }
