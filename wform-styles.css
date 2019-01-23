@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
     font-size: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    color: #000000;
 }
 
 .wFormContainer .wFormHeader {
